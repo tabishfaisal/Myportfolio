@@ -1,0 +1,31 @@
+.header-container{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.header-logo{
+    object-fit: contain;
+    height: 50px;
+    width: 50px;
+}
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.header-connect-btn{
+    padding: 10px 20px;
+    border-radius: 40px;
+    background: linear-gradient(276deg,#da7c25 0.36%,#b923e1 102.06% );
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header-connect-btn:hover{
+    transform: scale(1.05);
+}

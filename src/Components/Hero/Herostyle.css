@@ -1,0 +1,81 @@
+.hero-section{
+    width: 800px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@keyframes slideInOut {
+    0% {
+      transform: translateX(-100px); 
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(50px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0); 
+  }
+}
+.profile-img{
+    border-radius: 190px;
+    padding: 15px;
+    height: 120px;
+    animation: slideInOut 3s ease-in-out forwards;
+}
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+.name {
+    font-family: 'Tangerine', cursive;
+    font-size: 64px; /* Make it stand out more */
+    font-weight: 700;
+    background: linear-gradient(276deg, #da7c25 0.36%, #b923e1 102.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    animation: bounce 3s ease-in-out infinite;
+    margin: 15px;
+}
+.role{
+    font-family: 'Tangerine', cursive;
+    font-size: 42px;
+    margin: 25px;
+}
+.hero-resume{
+    padding: 10px 20px;
+    border-radius: 40px;
+    background: linear-gradient(276deg,#da7c25 0.36%,#b923e1 102.06% );
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero-resume:hover{
+    transform: scale(1.05);
+}
+.hero-connect{
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 12px;
+    cursor: pointer;
+    transform: 0.5s;
+}
+.hero-connect:hover{
+    transform: scale(1.05);
+}
+  
