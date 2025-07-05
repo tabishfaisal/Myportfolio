@@ -1,0 +1,17 @@
+.skills-category {
+    margin-bottom: 2rem;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .icons i,
+  .icons img {
+    font-size: 40px;
+    height: 40px;
+  }
+  

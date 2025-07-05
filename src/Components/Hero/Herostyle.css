@@ -27,6 +27,8 @@
 }
 .profile-img{
     border-radius: 190px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 2px plum;
     padding: 15px;
     height: 120px;
     animation: slideInOut 3s ease-in-out forwards;

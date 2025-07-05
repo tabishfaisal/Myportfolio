@@ -5,17 +5,22 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    font-size: 28px;
 }
 .header-logo{
-    object-fit: contain;
+    background-color: black;
+    opacity: 75%;
     height: 50px;
-    width: 50px;
+    width: 80px;
 }
 .header-links{
     display: flex;
     align-items: center;
     gap: 15px;
     cursor: pointer;
+}
+.header-links > a:focus{
+    border-bottom: 1px solid #b923e1;
 }
 .header-connect-btn{
     padding: 10px 20px;
