@@ -42,7 +42,6 @@
     }
   }
 .name {
-    font-family: 'Tangerine', cursive;
     font-size: 64px; /* Make it stand out more */
     font-weight: 700;
     background: linear-gradient(276deg, #da7c25 0.36%, #b923e1 102.06%);
@@ -53,7 +52,6 @@
     margin: 15px;
 }
 .role{
-    font-family: 'Tangerine', cursive;
     font-size: 42px;
     margin: 25px;
 }

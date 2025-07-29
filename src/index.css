@@ -1,6 +1,5 @@
 body{
   background-color: #040404;
-  font-family: 'Tangerine', cursive;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   margin: 0;
