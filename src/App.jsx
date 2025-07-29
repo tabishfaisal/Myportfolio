@@ -1,7 +1,9 @@
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
+import Project from './Components/Project/Project';
 import Contact from './Components/contact/Contact';
+
 
 const App = () => {
   return (
@@ -14,8 +16,7 @@ const App = () => {
        <About />
       </section>
       <section id="projects" className="page-section">
-        <h1>My Projects</h1>
-        <p>Some cool stuff goes here.</p>
+       <Project />
       </section>
       <section id="contact" className="page-section">
         <Contact />
