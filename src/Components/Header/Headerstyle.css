@@ -21,7 +21,7 @@
 .header-links{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     cursor: pointer;
 }
 .header-links > a:focus{
@@ -35,6 +35,7 @@
     color: white;
     cursor: pointer;
     transition: 0.5s;
+    margin: 5px;
 }
 .header-connect-btn:hover{
     transform: scale(1.05);

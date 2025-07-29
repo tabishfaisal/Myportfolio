@@ -1,6 +1,7 @@
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
+import Contact from './Components/contact/Contact';
 
 const App = () => {
   return (
@@ -17,8 +18,7 @@ const App = () => {
         <p>Some cool stuff goes here.</p>
       </section>
       <section id="contact" className="page-section">
-        <h1>Contact</h1>
-        <p>Let's get in touch!</p>
+        <Contact />
       </section>
     </div>
   );
