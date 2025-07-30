@@ -1,9 +1,9 @@
-import React from 'react'
+import './Projectstyle.css';
 
 const Project = () => {
   return (
     <div>
-      my projects
+     <h1>My Projects</h1>
     </div>
   )
 }

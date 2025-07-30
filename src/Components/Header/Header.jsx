@@ -19,8 +19,9 @@ const Header = () => {
     <div className="header-container">
       <img className='header-logo' src={logo} alt='logo-image' />
       <nav className="header-links">
-        <a href="#" onClick={(e) => handleScroll(e, '#skills')}>Home</a>
+        <a href="#" onClick={(e) => handleScroll(e, '#home')}>Home</a>
         <a href="#about" onClick={(e) => handleScroll(e, '#about')}>About Me</a>
+        <a href="#projects" onClick={(e) => handleScroll(e, '#projects')}>Projects</a>
         <a href="#contact" onClick={(e) => handleScroll(e, '#contact')}>Contact</a>
       </nav>
       <button className='header-connect-btn'>
