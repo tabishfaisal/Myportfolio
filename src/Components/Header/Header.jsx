@@ -21,6 +21,7 @@ const Header = () => {
       <nav className="header-links">
         <a href="#" onClick={(e) => handleScroll(e, '#home')}>Home</a>
         <a href="#about" onClick={(e) => handleScroll(e, '#about')}>About Me</a>
+        <a href="#skills" onClick={(e) => handleScroll(e, '#skills')}>My Skills</a>
         <a href="#projects" onClick={(e) => handleScroll(e, '#projects')}>Projects</a>
         <a href="#contact" onClick={(e) => handleScroll(e, '#contact')}>Contact</a>
       </nav>
