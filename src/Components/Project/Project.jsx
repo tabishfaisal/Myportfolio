@@ -18,20 +18,20 @@ const techIcons = {
 const projects = [
   {
     title: '🍏 Apple Website/App Clone',
-    video: '/project-1.mp4',
+    video: 'project-1.mp4',
     description: "Sleek Apple website clone with responsive design, interactive product cards, and smooth animations."
 ,
     tech: ['react', 'js', 'tailwind', 'express', 'mysql', 'mongodb'],
   },
   {
     title: 'Laptop Camparison App',
-    video: '/project-2.mp4',
+    video: 'project-2.mp4',
     description: 'A responsive laptop comparison site built with TypeScript, React, and Tailwind, featuring wishlist and side-by-side comparison. Data is manually posted via Postman.',
     tech: ['react', 'js', 'tailwind', 'express', 'mysql'],
   },
   {
     title: 'Task Manager App',
-    video: '/project-3.mp4',
+    video: 'project-3.mp4',
     description: "A task manager app built with React, Tailwind CSS, Node.js, and Express, allowing users to add, edit, delete, and sort tasks by date and status."
 ,
     tech: ['react', 'js', 'node', 'mongodb'],
